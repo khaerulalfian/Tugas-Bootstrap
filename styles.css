@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: #e53c1f;
+}
+.container .row .col-sm-4 img {
+    max-width: 300px;
+    padding: 15px;
+}
+
+.container .row .col-sm-8 {
+    position: relative;
+    display: block;
+}
+
+.container .row .col-sm-8 img {
+    max-width: 700px;
+    padding: 15px;
+    position: absolute;
+    right: 0;
+}
+
+.nav-item {
+    margin-right : 30px;
+    font-family: poppins;
+    color: darkgray;
+}
+
+.navbar-light .navbar-nav .nav-link.active, {
+    color: white;
+}
+
+.d-flex .btn {
+    color: white;
+    border-color: white;
+
+}
+
+.d-flex .btn:hover {
+    background-color: #00295b;
+    border-color: white;
+}
+
+.carousel-inner {
+    max-height: 500px;
+    margin: auto;
+}
+
+.card {
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.card-text {
+    vertical-align: middle;
+}
+
+.card-group {
+
+}
+
+.card-group .card {
+    margin: 10px;
+    box-sizing: border-box;
+}
+
+.accordion {
+    margin-top: 60px;
+}
